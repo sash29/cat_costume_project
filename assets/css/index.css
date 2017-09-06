@@ -1,0 +1,114 @@
+body {
+
+
+}
+.nav{
+  display: inline;
+  width: 1000px;
+  height:70px;
+  margin-top: 0;
+  }
+.nav h1{ font-family: PT Sans Narrow Bold;
+          font-size:1.5em;
+          color:#323232;
+          float:left;
+          margin-top:10px;}
+
+ul {float:right;
+    font-family:PT Sans Regular;
+    font-size:.9em;
+    color: #323232;
+    margin-top: 20px;}
+
+ul li{ padding:3px;
+      display : inline;}
+
+.splash{ margin:0 auto 80px auto;}
+.splash img{ width:100%;}
+img.splash{ width:100%;
+            margin:0 0 0 0;
+            }
+.main { width:800px;
+        margin:0 auto;}
+p {
+  font-family:PT Serif Regular;
+  font-size:.875em;
+  line-height:1.75em;
+  color:#323232;
+  padding:30px;
+}
+.column {
+  display:inline-block;
+  background-color:lightgrey;
+  width:300px;
+  margin:0 40 80 40;
+ }
+.column h2{padding:0px;
+}
+h1 {
+  font-family:PT Sans Narrow Bold;
+  font-size:1.875em;
+  color: #323232;
+  text-align:center;}
+
+h2 {font-family:PT Sans Narrow Bold;
+    font-size:1.5em;
+    color: #00897f;
+    text-transform: uppercase;
+    text-align:center;
+  }
+h3{font-family:PT Serif Regular;
+  font-size:1em;
+  line-height:2em;
+  color:#323232;
+  }
+
+.cat {border-radius: 50%;
+      margin:5px}
+
+.getintouch {
+  background-color: lightgrey;
+  height:350px;
+  width:100%;
+  padding:40 40 40 50px;
+  
+  margin: 10px;
+}
+.getintouch h1{
+  padding-top:60px;
+  padding-bottom:45px;
+  margin:0;
+  }
+.contact_column {
+  display: inline-block;
+  background-color:white;
+  width:350px;
+  height:150px;
+  padding: 20px;
+  margin-right:100px;
+  margin-left:100px;
+  margin-bottom:20px;
+}
+h2 {color: teal;}
+h3 a {
+  font-family:PT Serif Bold;
+  font-size:1em;
+  color: red;}
+footer{
+  height:100px;
+  background-color:teal;
+}
+footer h1{  font-family:PT Sans Narrow Bold;
+            width:100%;
+            font-size:1.25em;
+            padding-top:30px;
+            color:white;
+            }
+
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}

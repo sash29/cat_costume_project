@@ -1,6 +1,4 @@
 body {
-
-
 }
 .nav{
   display: inline;
@@ -25,7 +23,7 @@ ul li{ padding:3px;
 
 .splash{ margin:0 auto 80px auto;}
 .splash img{ width:100%;}
-img.splash{ width:100%;
+img.map{ width:100%;
             margin:0 0 0 0;
             }
 .main { width:800px;
@@ -70,24 +68,25 @@ h3{font-family:PT Serif Regular;
   background-color: lightgrey;
   height:350px;
   width:100%;
-  padding:40 40 40 50px;
-  
-  margin: 10px;
+  text-align:center;
 }
 .getintouch h1{
   padding-top:60px;
-  padding-bottom:45px;
-  margin:0;
+  padding-bottom:20px;
+  margin:0 auto;
+  text-align:center;
   }
+
+
+
 .contact_column {
   display: inline-block;
   background-color:white;
-  width:350px;
+  width:30%;
   height:150px;
+  margin: 0 50px;
   padding: 20px;
-  margin-right:100px;
-  margin-left:100px;
-  margin-bottom:20px;
+  text-align:center;
 }
 h2 {color: teal;}
 h3 a {
@@ -104,9 +103,46 @@ footer h1{  font-family:PT Sans Narrow Bold;
             padding-top:30px;
             color:white;
             }
+/*--------------------------------------------*/
+@media(max-width: 940px) {
 
+nav{
+  width: 90%;
+  margin-top: 0;
+  }
+
+.splash img{ width:100%;}
+img.map{ display:block;
+            width:100%;
+            margin:0 0 0 0;
+            }
+.main { width:800px;
+        margin:0 auto;}
+
+.column {
+          display:inline-block;
+          background-color:lightgrey;
+          width:300px;
+          margin:0 40 80 40;
+         }
+.contact_column{
+  display: inline-block;
+  background-color:white;
+  width:30%;
+  height:150px;
+  margin: 0 40px 20px 130px;
+  padding: 20px;
+  text-align:center;
+}
+footer h1{  font-family:PT Sans Narrow Bold;
+                     width:100%;
+                     font-size:1.25em;
+                     padding-top:30px;
+                     color:white;
+                     }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
+
 }
 
 /* On devices wider than 940px */

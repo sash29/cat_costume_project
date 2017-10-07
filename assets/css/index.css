@@ -7,14 +7,12 @@ body {
   margin-top: 0;
   }
 .nav h1{ font-family: PT Sans Narrow Bold;
-          font-size:1.5em;
           color:#323232;
           float:left;
           margin-top:10px;}
 
 ul {float:right;
     font-family:PT Sans Regular;
-    font-size:.9em;
     color: #323232;
     margin-top: 20px;}
 
@@ -30,8 +28,6 @@ img.map{ width:100%;
         margin:0 auto;}
 p {
   font-family:PT Serif Regular;
-  font-size:.875em;
-  line-height:1.75em;
   color:#323232;
   padding:30px;
 }
@@ -45,19 +41,16 @@ p {
 }
 h1 {
   font-family:PT Sans Narrow Bold;
-  font-size:1.875em;
   color: #323232;
   text-align:center;}
 
 h2 {font-family:PT Sans Narrow Bold;
-    font-size:1.5em;
     color: #00897f;
     text-transform: uppercase;
     text-align:center;
   }
 h3{font-family:PT Serif Regular;
-  font-size:1em;
-  line-height:2em;
+
   color:#323232;
   }
 
@@ -91,7 +84,6 @@ h3{font-family:PT Serif Regular;
 h2 {color: teal;}
 h3 a {
   font-family:PT Serif Bold;
-  font-size:1em;
   color: red;}
 footer{
   height:100px;
@@ -105,7 +97,6 @@ footer h1{  font-family:PT Sans Narrow Bold;
             }
 /*--------------------------------------------*/
 @media(max-width: 940px) {
-
 nav{
   width: 90%;
   margin-top: 0;
@@ -136,15 +127,34 @@ img.map{ display:block;
 }
 footer h1{  font-family:PT Sans Narrow Bold;
                      width:100%;
-                     font-size:1.25em;
                      padding-top:30px;
                      color:white;
                      }
 /* On devices wider than 660px */
 @media(min-width: 660px) {
-
+.nav h1 {
+  font-size:1.5em;/* extracted from 100% screen size syling*/
 }
+ul {font-size:.9em;}/* extracted from 100% screen size syling*/
+
+p {/* extracted from 100% screen size syling*/
+  font-size:.875em;
+  line-height:1.75em;}
+h1 { font-size:1.875em;/* extracted from 100% screen size syling*/}
+footer h1{
+    font-size:1.25em;/* extracted from media query of max-width:940*/}
+h2 {font-size:1.5em;/*extracted from 100% screen size syling*/}
+}
+h3{/*extracted from 100% screen size syling*/
+  font-size:1em;
+  line-height:2em;}
+
+h3 a {
+font-size:1em;/* extracted from 100% screen size syling*/}
+
 
 /* On devices wider than 940px */
-@media(min-width: 940px) {
+@media(max-width: 810px) {
+  .main h3{width:80%}
+  .cat{display:block}
 }
